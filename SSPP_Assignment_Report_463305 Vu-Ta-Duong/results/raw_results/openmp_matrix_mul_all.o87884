@@ -1,0 +1,480 @@
+
+Testing with n = 512, k = 32, 8 threads
+[CPU] n=512, k=32, Time=19.297000 ms, GFLOPS=0.87
+[OpenMP] n=512, k=32, Threads=8, Time=0.594478 ms, GFLOPS=28.22
+Max Error: 0.000005
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 512, k = 48, 8 threads
+[CPU] n=512, k=48, Time=23.991000 ms, GFLOPS=1.05
+[OpenMP] n=512, k=48, Threads=8, Time=0.683203 ms, GFLOPS=36.84
+Max Error: 0.000007
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 512, k = 64, 8 threads
+[CPU] n=512, k=64, Time=19.817000 ms, GFLOPS=1.69
+[OpenMP] n=512, k=64, Threads=8, Time=0.803377 ms, GFLOPS=41.77
+Max Error: 0.000011
+Max error (0.000011) exceeds tolerance!
+
+Testing with n = 512, k = 96, 8 threads
+[CPU] n=512, k=96, Time=21.758000 ms, GFLOPS=2.31
+[OpenMP] n=512, k=96, Threads=8, Time=1.106195 ms, GFLOPS=45.50
+Max Error: 0.000017
+Max error (0.000017) exceeds tolerance!
+
+Testing with n = 512, k = 128, 8 threads
+[CPU] n=512, k=128, Time=23.848000 ms, GFLOPS=2.81
+[OpenMP] n=512, k=128, Threads=8, Time=1.415595 ms, GFLOPS=47.41
+Max Error: 0.000027
+Max error (0.000027) exceeds tolerance!
+
+Testing with n = 1024, k = 32, 8 threads
+[CPU] n=1024, k=32, Time=24.950000 ms, GFLOPS=2.69
+[OpenMP] n=1024, k=32, Threads=8, Time=2.430052 ms, GFLOPS=27.62
+Max Error: 0.000005
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 1024, k = 48, 8 threads
+[CPU] n=1024, k=48, Time=28.821000 ms, GFLOPS=3.49
+[OpenMP] n=1024, k=48, Threads=8, Time=2.445668 ms, GFLOPS=41.16
+Max Error: 0.000008
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 1024, k = 64, 8 threads
+[CPU] n=1024, k=64, Time=33.371000 ms, GFLOPS=4.02
+[OpenMP] n=1024, k=64, Threads=8, Time=2.940111 ms, GFLOPS=45.65
+Max Error: 0.000011
+Max error (0.000011) exceeds tolerance!
+
+Testing with n = 1024, k = 96, 8 threads
+[CPU] n=1024, k=96, Time=42.084000 ms, GFLOPS=4.78
+[OpenMP] n=1024, k=96, Threads=8, Time=4.062586 ms, GFLOPS=49.56
+Max Error: 0.000019
+Max error (0.000019) exceeds tolerance!
+
+Testing with n = 1024, k = 128, 8 threads
+[CPU] n=1024, k=128, Time=49.664000 ms, GFLOPS=5.41
+[OpenMP] n=1024, k=128, Threads=8, Time=5.228378 ms, GFLOPS=51.34
+Max Error: 0.000031
+Max error (0.000031) exceeds tolerance!
+
+Testing with n = 2048, k = 32, 8 threads
+[CPU] n=2048, k=32, Time=51.119000 ms, GFLOPS=5.25
+[OpenMP] n=2048, k=32, Threads=8, Time=6.922055 ms, GFLOPS=38.78
+Max Error: 0.000005
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 2048, k = 48, 8 threads
+[CPU] n=2048, k=48, Time=72.716000 ms, GFLOPS=5.54
+[OpenMP] n=2048, k=48, Threads=8, Time=9.922773 ms, GFLOPS=40.58
+Max Error: 0.000008
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 2048, k = 64, 8 threads
+[CPU] n=2048, k=64, Time=88.065000 ms, GFLOPS=6.10
+[OpenMP] n=2048, k=64, Threads=8, Time=10.496769 ms, GFLOPS=51.15
+Max Error: 0.000013
+Max error (0.000013) exceeds tolerance!
+
+Testing with n = 2048, k = 96, 8 threads
+[CPU] n=2048, k=96, Time=112.013000 ms, GFLOPS=7.19
+[OpenMP] n=2048, k=96, Threads=8, Time=15.853811 ms, GFLOPS=50.80
+Max Error: 0.000019
+Max error (0.000019) exceeds tolerance!
+
+Testing with n = 2048, k = 128, 8 threads
+[CPU] n=2048, k=128, Time=140.726000 ms, GFLOPS=7.63
+[OpenMP] n=2048, k=128, Threads=8, Time=20.603057 ms, GFLOPS=52.12
+Max Error: 0.000038
+Max error (0.000038) exceeds tolerance!
+
+Testing with n = 4096, k = 32, 8 threads
+[CPU] n=4096, k=32, Time=151.733000 ms, GFLOPS=7.08
+[OpenMP] n=4096, k=32, Threads=8, Time=24.920043 ms, GFLOPS=43.09
+Max Error: 0.000005
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 4096, k = 48, 8 threads
+[CPU] n=4096, k=48, Time=204.062000 ms, GFLOPS=7.89
+[OpenMP] n=4096, k=48, Threads=8, Time=34.136709 ms, GFLOPS=47.18
+Max Error: 0.000008
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 4096, k = 64, 8 threads
+[CPU] n=4096, k=64, Time=251.972000 ms, GFLOPS=8.52
+[OpenMP] n=4096, k=64, Threads=8, Time=42.067587 ms, GFLOPS=51.05
+Max Error: 0.000015
+Max error (0.000015) exceeds tolerance!
+
+Testing with n = 4096, k = 96, 8 threads
+[CPU] n=4096, k=96, Time=342.565000 ms, GFLOPS=9.40
+[OpenMP] n=4096, k=96, Threads=8, Time=58.610983 ms, GFLOPS=54.96
+Max Error: 0.000023
+Max error (0.000023) exceeds tolerance!
+
+Testing with n = 4096, k = 128, 8 threads
+[CPU] n=4096, k=128, Time=441.134000 ms, GFLOPS=9.74
+[OpenMP] n=4096, k=128, Threads=8, Time=73.980838 ms, GFLOPS=58.06
+Max Error: 0.000034
+Max error (0.000034) exceeds tolerance!
+
+Testing with n = 512, k = 32, 16 threads
+[CPU] n=512, k=32, Time=36.202000 ms, GFLOPS=0.46
+[OpenMP] n=512, k=32, Threads=16, Time=0.398416 ms, GFLOPS=42.11
+Max Error: 0.000004
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 512, k = 48, 16 threads
+[CPU] n=512, k=48, Time=39.288000 ms, GFLOPS=0.64
+[OpenMP] n=512, k=48, Threads=16, Time=0.428975 ms, GFLOPS=58.67
+Max Error: 0.000008
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 512, k = 64, 16 threads
+[CPU] n=512, k=64, Time=39.818000 ms, GFLOPS=0.84
+[OpenMP] n=512, k=64, Threads=16, Time=0.511963 ms, GFLOPS=65.54
+Max Error: 0.000011
+Max error (0.000011) exceeds tolerance!
+
+Testing with n = 512, k = 96, 16 threads
+[CPU] n=512, k=96, Time=38.742000 ms, GFLOPS=1.30
+[OpenMP] n=512, k=96, Threads=16, Time=0.667833 ms, GFLOPS=75.37
+Max Error: 0.000019
+Max error (0.000019) exceeds tolerance!
+
+Testing with n = 512, k = 128, 16 threads
+[CPU] n=512, k=128, Time=47.175000 ms, GFLOPS=1.42
+[OpenMP] n=512, k=128, Threads=16, Time=0.847105 ms, GFLOPS=79.22
+Max Error: 0.000031
+Max error (0.000031) exceeds tolerance!
+
+Testing with n = 1024, k = 32, 16 threads
+[CPU] n=1024, k=32, Time=44.319000 ms, GFLOPS=1.51
+[OpenMP] n=1024, k=32, Threads=16, Time=1.524955 ms, GFLOPS=44.01
+Max Error: 0.000004
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 1024, k = 48, 16 threads
+[CPU] n=1024, k=48, Time=49.734000 ms, GFLOPS=2.02
+[OpenMP] n=1024, k=48, Threads=16, Time=1.547802 ms, GFLOPS=65.04
+Max Error: 0.000008
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 1024, k = 64, 16 threads
+[CPU] n=1024, k=64, Time=53.432000 ms, GFLOPS=2.51
+[OpenMP] n=1024, k=64, Threads=16, Time=1.954198 ms, GFLOPS=68.68
+Max Error: 0.000013
+Max error (0.000013) exceeds tolerance!
+
+Testing with n = 1024, k = 96, 16 threads
+[CPU] n=1024, k=96, Time=57.701000 ms, GFLOPS=3.49
+[OpenMP] n=1024, k=96, Threads=16, Time=2.642401 ms, GFLOPS=76.19
+Max Error: 0.000019
+Max error (0.000019) exceeds tolerance!
+
+Testing with n = 1024, k = 128, 16 threads
+[CPU] n=1024, k=128, Time=74.830000 ms, GFLOPS=3.59
+[OpenMP] n=1024, k=128, Threads=16, Time=3.070589 ms, GFLOPS=87.42
+Max Error: 0.000031
+Max error (0.000031) exceeds tolerance!
+
+Testing with n = 2048, k = 32, 16 threads
+[CPU] n=2048, k=32, Time=68.006000 ms, GFLOPS=3.95
+[OpenMP] n=2048, k=32, Threads=16, Time=4.145727 ms, GFLOPS=64.75
+Max Error: 0.000005
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 2048, k = 48, 16 threads
+[CPU] n=2048, k=48, Time=88.431000 ms, GFLOPS=4.55
+[OpenMP] n=2048, k=48, Threads=16, Time=5.613126 ms, GFLOPS=71.73
+Max Error: 0.000008
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 2048, k = 64, 16 threads
+[CPU] n=2048, k=64, Time=100.464000 ms, GFLOPS=5.34
+[OpenMP] n=2048, k=64, Threads=16, Time=7.246014 ms, GFLOPS=74.09
+Max Error: 0.000013
+Max error (0.000013) exceeds tolerance!
+
+Testing with n = 2048, k = 96, 16 threads
+[CPU] n=2048, k=96, Time=138.558000 ms, GFLOPS=5.81
+[OpenMP] n=2048, k=96, Threads=16, Time=9.595968 ms, GFLOPS=83.92
+Max Error: 0.000021
+Max error (0.000021) exceeds tolerance!
+
+Testing with n = 2048, k = 128, 16 threads
+[CPU] n=2048, k=128, Time=162.666000 ms, GFLOPS=6.60
+[OpenMP] n=2048, k=128, Threads=16, Time=11.735037 ms, GFLOPS=91.50
+Max Error: 0.000031
+Max error (0.000031) exceeds tolerance!
+
+Testing with n = 4096, k = 32, 16 threads
+[CPU] n=4096, k=32, Time=174.307000 ms, GFLOPS=6.16
+[OpenMP] n=4096, k=32, Threads=16, Time=15.298970 ms, GFLOPS=70.18
+Max Error: 0.000006
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 4096, k = 48, 16 threads
+[CPU] n=4096, k=48, Time=225.446000 ms, GFLOPS=7.14
+[OpenMP] n=4096, k=48, Threads=16, Time=20.307899 ms, GFLOPS=79.31
+Max Error: 0.000009
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 4096, k = 64, 16 threads
+[CPU] n=4096, k=64, Time=265.770000 ms, GFLOPS=8.08
+[OpenMP] n=4096, k=64, Threads=16, Time=24.287708 ms, GFLOPS=88.42
+Max Error: 0.000013
+Max error (0.000013) exceeds tolerance!
+
+Testing with n = 4096, k = 96, 16 threads
+[CPU] n=4096, k=96, Time=373.582000 ms, GFLOPS=8.62
+[OpenMP] n=4096, k=96, Threads=16, Time=34.089480 ms, GFLOPS=94.49
+Max Error: 0.000021
+Max error (0.000021) exceeds tolerance!
+
+Testing with n = 4096, k = 128, 16 threads
+[CPU] n=4096, k=128, Time=458.583000 ms, GFLOPS=9.37
+[OpenMP] n=4096, k=128, Threads=16, Time=42.744361 ms, GFLOPS=100.48
+Max Error: 0.000034
+Max error (0.000034) exceeds tolerance!
+
+Testing with n = 512, k = 32, 32 threads
+[CPU] n=512, k=32, Time=2.818000 ms, GFLOPS=5.95
+[OpenMP] n=512, k=32, Threads=32, Time=0.693794 ms, GFLOPS=24.18
+Max Error: 0.000005
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 512, k = 48, 32 threads
+[CPU] n=512, k=48, Time=3.366000 ms, GFLOPS=7.48
+[OpenMP] n=512, k=48, Threads=32, Time=0.841435 ms, GFLOPS=29.91
+Max Error: 0.000007
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 512, k = 64, 32 threads
+[CPU] n=512, k=64, Time=4.498000 ms, GFLOPS=7.46
+[OpenMP] n=512, k=64, Threads=32, Time=1.088545 ms, GFLOPS=30.83
+Max Error: 0.000011
+Max error (0.000011) exceeds tolerance!
+
+Testing with n = 512, k = 96, 32 threads
+[CPU] n=512, k=96, Time=6.004000 ms, GFLOPS=8.38
+[OpenMP] n=512, k=96, Threads=32, Time=1.246966 ms, GFLOPS=40.36
+Max Error: 0.000017
+Max error (0.000017) exceeds tolerance!
+
+Testing with n = 512, k = 128, 32 threads
+[CPU] n=512, k=128, Time=7.875000 ms, GFLOPS=8.52
+[OpenMP] n=512, k=128, Threads=32, Time=1.287952 ms, GFLOPS=52.11
+Max Error: 0.000031
+Max error (0.000031) exceeds tolerance!
+
+Testing with n = 1024, k = 32, 32 threads
+[CPU] n=1024, k=32, Time=8.620000 ms, GFLOPS=7.79
+[OpenMP] n=1024, k=32, Threads=32, Time=2.055004 ms, GFLOPS=32.66
+Max Error: 0.000005
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 1024, k = 48, 32 threads
+[CPU] n=1024, k=48, Time=13.346000 ms, GFLOPS=7.54
+[OpenMP] n=1024, k=48, Threads=32, Time=1.951508 ms, GFLOPS=51.58
+Max Error: 0.000008
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 1024, k = 64, 32 threads
+[CPU] n=1024, k=64, Time=17.282000 ms, GFLOPS=7.77
+[OpenMP] n=1024, k=64, Threads=32, Time=2.359491 ms, GFLOPS=56.88
+Max Error: 0.000011
+Max error (0.000011) exceeds tolerance!
+
+Testing with n = 1024, k = 96, 32 threads
+[CPU] n=1024, k=96, Time=22.434000 ms, GFLOPS=8.97
+[OpenMP] n=1024, k=96, Threads=32, Time=2.762470 ms, GFLOPS=72.88
+Max Error: 0.000019
+Max error (0.000019) exceeds tolerance!
+
+Testing with n = 1024, k = 128, 32 threads
+[CPU] n=1024, k=128, Time=32.812000 ms, GFLOPS=8.18
+[OpenMP] n=1024, k=128, Threads=32, Time=3.481362 ms, GFLOPS=77.11
+Max Error: 0.000031
+Max error (0.000031) exceeds tolerance!
+
+Testing with n = 2048, k = 32, 32 threads
+[CPU] n=2048, k=32, Time=34.681000 ms, GFLOPS=7.74
+[OpenMP] n=2048, k=32, Threads=32, Time=4.853576 ms, GFLOPS=55.31
+Max Error: 0.000006
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 2048, k = 48, 32 threads
+[CPU] n=2048, k=48, Time=52.431000 ms, GFLOPS=7.68
+[OpenMP] n=2048, k=48, Threads=32, Time=5.770821 ms, GFLOPS=69.77
+Max Error: 0.000008
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 2048, k = 64, 32 threads
+[CPU] n=2048, k=64, Time=70.349000 ms, GFLOPS=7.63
+[OpenMP] n=2048, k=64, Threads=32, Time=6.633505 ms, GFLOPS=80.93
+Max Error: 0.000013
+Max error (0.000013) exceeds tolerance!
+
+Testing with n = 2048, k = 96, 32 threads
+[CPU] n=2048, k=96, Time=98.970000 ms, GFLOPS=8.14
+[OpenMP] n=2048, k=96, Threads=32, Time=9.507168 ms, GFLOPS=84.71
+Max Error: 0.000023
+Max error (0.000023) exceeds tolerance!
+
+Testing with n = 2048, k = 128, 32 threads
+[CPU] n=2048, k=128, Time=128.799000 ms, GFLOPS=8.34
+[OpenMP] n=2048, k=128, Threads=32, Time=12.724217 ms, GFLOPS=84.39
+Max Error: 0.000034
+Max error (0.000034) exceeds tolerance!
+
+Testing with n = 4096, k = 32, 32 threads
+[CPU] n=4096, k=32, Time=140.232000 ms, GFLOPS=7.66
+[OpenMP] n=4096, k=32, Threads=32, Time=14.950670 ms, GFLOPS=71.82
+Max Error: 0.000006
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 4096, k = 48, 32 threads
+[CPU] n=4096, k=48, Time=187.163000 ms, GFLOPS=8.61
+[OpenMP] n=4096, k=48, Threads=32, Time=21.931820 ms, GFLOPS=73.44
+Max Error: 0.000010
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 4096, k = 64, 32 threads
+[CPU] n=4096, k=64, Time=234.345000 ms, GFLOPS=9.16
+[OpenMP] n=4096, k=64, Threads=32, Time=27.472649 ms, GFLOPS=78.17
+Max Error: 0.000013
+Max error (0.000013) exceeds tolerance!
+
+Testing with n = 4096, k = 96, 32 threads
+[CPU] n=4096, k=96, Time=329.721000 ms, GFLOPS=9.77
+[OpenMP] n=4096, k=96, Threads=32, Time=36.888726 ms, GFLOPS=87.32
+Max Error: 0.000023
+Max error (0.000023) exceeds tolerance!
+
+Testing with n = 4096, k = 128, 32 threads
+[CPU] n=4096, k=128, Time=425.731000 ms, GFLOPS=10.09
+[OpenMP] n=4096, k=128, Threads=32, Time=49.123049 ms, GFLOPS=87.43
+Max Error: 0.000042
+Max error (0.000042) exceeds tolerance!
+
+Testing with n = 512, k = 32, 64 threads
+[CPU] n=512, k=32, Time=2.797000 ms, GFLOPS=6.00
+[OpenMP] n=512, k=32, Threads=64, Time=0.698123 ms, GFLOPS=24.03
+Max Error: 0.000005
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 512, k = 48, 64 threads
+[CPU] n=512, k=48, Time=3.295000 ms, GFLOPS=7.64
+[OpenMP] n=512, k=48, Threads=64, Time=0.866797 ms, GFLOPS=29.03
+Max Error: 0.000008
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 512, k = 64, 64 threads
+[CPU] n=512, k=64, Time=4.292000 ms, GFLOPS=7.82
+[OpenMP] n=512, k=64, Threads=64, Time=1.081273 ms, GFLOPS=31.03
+Max Error: 0.000011
+Max error (0.000011) exceeds tolerance!
+
+Testing with n = 512, k = 96, 64 threads
+[CPU] n=512, k=96, Time=6.030000 ms, GFLOPS=8.35
+[OpenMP] n=512, k=96, Threads=64, Time=1.337431 ms, GFLOPS=37.63
+Max Error: 0.000021
+Max error (0.000021) exceeds tolerance!
+
+Testing with n = 512, k = 128, 64 threads
+[CPU] n=512, k=128, Time=8.111000 ms, GFLOPS=8.27
+[OpenMP] n=512, k=128, Threads=64, Time=1.716420 ms, GFLOPS=39.10
+Max Error: 0.000027
+Max error (0.000027) exceeds tolerance!
+
+Testing with n = 1024, k = 32, 64 threads
+[CPU] n=1024, k=32, Time=8.866000 ms, GFLOPS=7.57
+[OpenMP] n=1024, k=32, Threads=64, Time=2.403691 ms, GFLOPS=27.92
+Max Error: 0.000005
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 1024, k = 48, 64 threads
+[CPU] n=1024, k=48, Time=13.598000 ms, GFLOPS=7.40
+[OpenMP] n=1024, k=48, Threads=64, Time=1.863901 ms, GFLOPS=54.01
+Max Error: 0.000008
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 1024, k = 64, 64 threads
+[CPU] n=1024, k=64, Time=18.259000 ms, GFLOPS=7.35
+[OpenMP] n=1024, k=64, Threads=64, Time=2.346870 ms, GFLOPS=57.19
+Max Error: 0.000011
+Max error (0.000011) exceeds tolerance!
+
+Testing with n = 1024, k = 96, 64 threads
+[CPU] n=1024, k=96, Time=29.711000 ms, GFLOPS=6.78
+[OpenMP] n=1024, k=96, Threads=64, Time=2.831418 ms, GFLOPS=71.10
+Max Error: 0.000021
+Max error (0.000021) exceeds tolerance!
+
+Testing with n = 1024, k = 128, 64 threads
+[CPU] n=1024, k=128, Time=33.913000 ms, GFLOPS=7.92
+[OpenMP] n=1024, k=128, Threads=64, Time=3.454708 ms, GFLOPS=77.70
+Max Error: 0.000031
+Max error (0.000031) exceeds tolerance!
+
+Testing with n = 2048, k = 32, 64 threads
+[CPU] n=2048, k=32, Time=36.383000 ms, GFLOPS=7.38
+[OpenMP] n=2048, k=32, Threads=64, Time=4.476361 ms, GFLOPS=59.97
+Max Error: 0.000005
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 2048, k = 48, 64 threads
+[CPU] n=2048, k=48, Time=53.911000 ms, GFLOPS=7.47
+[OpenMP] n=2048, k=48, Threads=64, Time=5.743120 ms, GFLOPS=70.11
+Max Error: 0.000008
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 2048, k = 64, 64 threads
+[CPU] n=2048, k=64, Time=68.684000 ms, GFLOPS=7.82
+[OpenMP] n=2048, k=64, Threads=64, Time=6.647632 ms, GFLOPS=80.76
+Max Error: 0.000011
+Max error (0.000011) exceeds tolerance!
+
+Testing with n = 2048, k = 96, 64 threads
+[CPU] n=2048, k=96, Time=98.091000 ms, GFLOPS=8.21
+[OpenMP] n=2048, k=96, Threads=64, Time=9.827547 ms, GFLOPS=81.94
+Max Error: 0.000019
+Max error (0.000019) exceeds tolerance!
+
+Testing with n = 2048, k = 128, 64 threads
+[CPU] n=2048, k=128, Time=124.020000 ms, GFLOPS=8.66
+[OpenMP] n=2048, k=128, Threads=64, Time=12.296349 ms, GFLOPS=87.32
+Max Error: 0.000031
+Max error (0.000031) exceeds tolerance!
+
+Testing with n = 4096, k = 32, 64 threads
+[CPU] n=4096, k=32, Time=138.422000 ms, GFLOPS=7.76
+[OpenMP] n=4096, k=32, Threads=64, Time=15.449364 ms, GFLOPS=69.50
+Max Error: 0.000005
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 4096, k = 48, 64 threads
+[CPU] n=4096, k=48, Time=187.297000 ms, GFLOPS=8.60
+[OpenMP] n=4096, k=48, Threads=64, Time=20.099156 ms, GFLOPS=80.13
+Max Error: 0.000008
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 4096, k = 64, 64 threads
+[CPU] n=4096, k=64, Time=235.406000 ms, GFLOPS=9.12
+[OpenMP] n=4096, k=64, Threads=64, Time=26.203468 ms, GFLOPS=81.95
+Max Error: 0.000013
+Max error (0.000013) exceeds tolerance!
+
+Testing with n = 4096, k = 96, 64 threads
+[CPU] n=4096, k=96, Time=329.736000 ms, GFLOPS=9.77
+[OpenMP] n=4096, k=96, Threads=64, Time=34.591507 ms, GFLOPS=93.12
+Max Error: 0.000021
+Max error (0.000021) exceeds tolerance!
+
+Testing with n = 4096, k = 128, 64 threads
+[CPU] n=4096, k=128, Time=425.470000 ms, GFLOPS=10.09
+[OpenMP] n=4096, k=128, Threads=64, Time=44.229429 ms, GFLOPS=97.11
+Max Error: 0.000038
+Max error (0.000038) exceeds tolerance!

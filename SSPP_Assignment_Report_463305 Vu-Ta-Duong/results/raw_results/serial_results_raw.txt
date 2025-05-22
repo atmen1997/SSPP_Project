@@ -1,0 +1,160 @@
+
+Testing n = 512, k = 32
+I-J-L: Time = 0.042837 sec, GFLOPS = 0.39
+I-L-J: Time = 0.037861 sec, GFLOPS = 0.44
+J-I-L: Time = 0.044883 sec, GFLOPS = 0.37
+J-L-I: Time = 0.072819 sec, GFLOPS = 0.23
+L-I-J: Time = 0.036718 sec, GFLOPS = 0.46
+L-J-I: Time = 0.071819 sec, GFLOPS = 0.23
+
+Testing n = 512, k = 48
+I-J-L: Time = 0.062776 sec, GFLOPS = 0.40
+I-L-J: Time = 0.052863 sec, GFLOPS = 0.48
+J-I-L: Time = 0.063853 sec, GFLOPS = 0.39
+J-L-I: Time = 0.106758 sec, GFLOPS = 0.24
+L-I-J: Time = 0.052859 sec, GFLOPS = 0.48
+L-J-I: Time = 0.109712 sec, GFLOPS = 0.23
+
+Testing n = 512, k = 64
+I-J-L: Time = 0.096796 sec, GFLOPS = 0.35
+I-L-J: Time = 0.071801 sec, GFLOPS = 0.47
+J-I-L: Time = 0.100711 sec, GFLOPS = 0.33
+J-L-I: Time = 0.156971 sec, GFLOPS = 0.21
+L-I-J: Time = 0.070692 sec, GFLOPS = 0.47
+L-J-I: Time = 0.144369 sec, GFLOPS = 0.23
+
+Testing n = 512, k = 96
+I-J-L: Time = 0.143379 sec, GFLOPS = 0.35
+I-L-J: Time = 0.105687 sec, GFLOPS = 0.48
+J-I-L: Time = 0.146530 sec, GFLOPS = 0.34
+J-L-I: Time = 0.215340 sec, GFLOPS = 0.23
+L-I-J: Time = 0.107567 sec, GFLOPS = 0.47
+L-J-I: Time = 0.233324 sec, GFLOPS = 0.22
+
+Testing n = 512, k = 128
+I-J-L: Time = 0.226311 sec, GFLOPS = 0.30
+I-L-J: Time = 0.142633 sec, GFLOPS = 0.47
+J-I-L: Time = 0.228066 sec, GFLOPS = 0.29
+J-L-I: Time = 0.299227 sec, GFLOPS = 0.22
+L-I-J: Time = 0.146441 sec, GFLOPS = 0.46
+L-J-I: Time = 0.308072 sec, GFLOPS = 0.22
+
+Testing n = 1024, k = 32
+I-J-L: Time = 0.179972 sec, GFLOPS = 0.37
+I-L-J: Time = 0.147509 sec, GFLOPS = 0.45
+J-I-L: Time = 0.174531 sec, GFLOPS = 0.38
+J-L-I: Time = 0.338323 sec, GFLOPS = 0.20
+L-I-J: Time = 0.143536 sec, GFLOPS = 0.47
+L-J-I: Time = 0.338192 sec, GFLOPS = 0.20
+
+Testing n = 1024, k = 48
+I-J-L: Time = 0.281065 sec, GFLOPS = 0.36
+I-L-J: Time = 0.214370 sec, GFLOPS = 0.47
+J-I-L: Time = 0.293057 sec, GFLOPS = 0.34
+J-L-I: Time = 0.620579 sec, GFLOPS = 0.16
+L-I-J: Time = 0.227228 sec, GFLOPS = 0.44
+L-J-I: Time = 0.505681 sec, GFLOPS = 0.20
+
+Testing n = 1024, k = 64
+I-J-L: Time = 0.451657 sec, GFLOPS = 0.30
+I-L-J: Time = 0.286112 sec, GFLOPS = 0.47
+J-I-L: Time = 0.469824 sec, GFLOPS = 0.29
+J-L-I: Time = 0.683047 sec, GFLOPS = 0.20
+L-I-J: Time = 0.291126 sec, GFLOPS = 0.46
+L-J-I: Time = 0.685190 sec, GFLOPS = 0.20
+
+Testing n = 1024, k = 96
+I-J-L: Time = 0.808769 sec, GFLOPS = 0.25
+I-L-J: Time = 0.455294 sec, GFLOPS = 0.44
+J-I-L: Time = 0.820986 sec, GFLOPS = 0.25
+J-L-I: Time = 1.027797 sec, GFLOPS = 0.20
+L-I-J: Time = 0.427754 sec, GFLOPS = 0.47
+L-J-I: Time = 1.019350 sec, GFLOPS = 0.20
+
+Testing n = 1024, k = 128
+I-J-L: Time = 1.077882 sec, GFLOPS = 0.25
+I-L-J: Time = 0.579456 sec, GFLOPS = 0.46
+J-I-L: Time = 1.091344 sec, GFLOPS = 0.25
+J-L-I: Time = 1.386226 sec, GFLOPS = 0.19
+L-I-J: Time = 0.587202 sec, GFLOPS = 0.46
+L-J-I: Time = 1.369476 sec, GFLOPS = 0.20
+
+Testing n = 2048, k = 32
+I-J-L: Time = 0.856349 sec, GFLOPS = 0.31
+I-L-J: Time = 0.590194 sec, GFLOPS = 0.45
+J-I-L: Time = 0.943515 sec, GFLOPS = 0.28
+J-L-I: Time = 2.751672 sec, GFLOPS = 0.10
+L-I-J: Time = 0.607299 sec, GFLOPS = 0.44
+L-J-I: Time = 2.929833 sec, GFLOPS = 0.09
+
+Testing n = 2048, k = 48
+I-J-L: Time = 1.512735 sec, GFLOPS = 0.27
+I-L-J: Time = 0.918005 sec, GFLOPS = 0.44
+J-I-L: Time = 1.609207 sec, GFLOPS = 0.25
+J-L-I: Time = 2.970687 sec, GFLOPS = 0.14
+L-I-J: Time = 0.869362 sec, GFLOPS = 0.46
+L-J-I: Time = 3.072768 sec, GFLOPS = 0.13
+
+Testing n = 2048, k = 64
+I-J-L: Time = 2.144612 sec, GFLOPS = 0.25
+I-L-J: Time = 1.159716 sec, GFLOPS = 0.46
+J-I-L: Time = 2.195626 sec, GFLOPS = 0.24
+J-L-I: Time = 3.937114 sec, GFLOPS = 0.14
+L-I-J: Time = 1.184482 sec, GFLOPS = 0.45
+L-J-I: Time = 4.181792 sec, GFLOPS = 0.13
+
+Testing n = 2048, k = 96
+I-J-L: Time = 3.173141 sec, GFLOPS = 0.25
+I-L-J: Time = 1.727893 sec, GFLOPS = 0.47
+J-I-L: Time = 3.321777 sec, GFLOPS = 0.24
+J-L-I: Time = 5.877258 sec, GFLOPS = 0.14
+L-I-J: Time = 1.747056 sec, GFLOPS = 0.46
+L-J-I: Time = 6.266650 sec, GFLOPS = 0.13
+
+Testing n = 2048, k = 128
+I-J-L: Time = 4.407686 sec, GFLOPS = 0.24
+I-L-J: Time = 2.350528 sec, GFLOPS = 0.46
+J-I-L: Time = 4.410619 sec, GFLOPS = 0.24
+J-L-I: Time = 7.596053 sec, GFLOPS = 0.14
+L-I-J: Time = 2.302878 sec, GFLOPS = 0.47
+L-J-I: Time = 7.928281 sec, GFLOPS = 0.14
+
+Testing n = 4096, k = 32
+I-J-L: Time = 3.317224 sec, GFLOPS = 0.32
+I-L-J: Time = 2.319740 sec, GFLOPS = 0.46
+J-I-L: Time = 4.611452 sec, GFLOPS = 0.23
+J-L-I: Time = 18.037770 sec, GFLOPS = 0.06
+L-I-J: Time = 2.294068 sec, GFLOPS = 0.47
+L-J-I: Time = 18.202622 sec, GFLOPS = 0.06
+
+Testing n = 4096, k = 48
+I-J-L: Time = 5.438863 sec, GFLOPS = 0.30
+I-L-J: Time = 3.457109 sec, GFLOPS = 0.47
+J-I-L: Time = 6.802473 sec, GFLOPS = 0.24
+J-L-I: Time = 39.343807 sec, GFLOPS = 0.04
+L-I-J: Time = 3.455622 sec, GFLOPS = 0.47
+L-J-I: Time = 29.376164 sec, GFLOPS = 0.05
+
+Testing n = 4096, k = 64
+I-J-L: Time = 8.192817 sec, GFLOPS = 0.26
+I-L-J: Time = 4.570477 sec, GFLOPS = 0.47
+J-I-L: Time = 9.313503 sec, GFLOPS = 0.23
+J-L-I: Time = 31.949936 sec, GFLOPS = 0.07
+L-I-J: Time = 4.630379 sec, GFLOPS = 0.46
+L-J-I: Time = 33.137747 sec, GFLOPS = 0.06
+
+Testing n = 4096, k = 96
+I-J-L: Time = 12.986700 sec, GFLOPS = 0.25
+I-L-J: Time = 6.894731 sec, GFLOPS = 0.47
+J-I-L: Time = 14.025287 sec, GFLOPS = 0.23
+J-L-I: Time = 49.236128 sec, GFLOPS = 0.07
+L-I-J: Time = 7.010709 sec, GFLOPS = 0.46
+L-J-I: Time = 49.581423 sec, GFLOPS = 0.06
+
+Testing n = 4096, k = 128
+I-J-L: Time = 17.285886 sec, GFLOPS = 0.25
+I-L-J: Time = 9.208110 sec, GFLOPS = 0.47
+J-I-L: Time = 18.603249 sec, GFLOPS = 0.23
+J-L-I: Time = 63.978664 sec, GFLOPS = 0.07
+L-I-J: Time = 9.345451 sec, GFLOPS = 0.46
+L-J-I: Time = 65.665296 sec, GFLOPS = 0.07

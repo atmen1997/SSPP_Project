@@ -1,0 +1,121 @@
+CUDA_VISIBLE_DEVICES=GPU-2b6c369f-e343-b816-fe19-1200242394f1
+
+Testing with n = 512, k = 32, BLOCK_SIZE = 32
+[CPU] Time=1.769 ms, 9.48 GFLOPS
+CUDA: n=512, k=32, BLOCK_SIZE=32, Time=0.032800 ms, GFLOPS=511.50
+Max Error: 0.000003
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 512, k = 48, BLOCK_SIZE = 32
+[CPU] Time=1.820 ms, 13.83 GFLOPS
+CUDA: n=512, k=48, BLOCK_SIZE=32, Time=0.026272 ms, GFLOPS=957.90
+Max Error: 0.000004
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 512, k = 64, BLOCK_SIZE = 32
+[CPU] Time=2.532 ms, 13.25 GFLOPS
+CUDA: n=512, k=64, BLOCK_SIZE=32, Time=0.030304 ms, GFLOPS=1107.26
+Max Error: 0.000008
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 512, k = 96, BLOCK_SIZE = 32
+[CPU] Time=3.828 ms, 13.15 GFLOPS
+CUDA: n=512, k=96, BLOCK_SIZE=32, Time=0.031072 ms, GFLOPS=1619.84
+Max Error: 0.000008
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 512, k = 128, BLOCK_SIZE = 32
+[CPU] Time=5.246 ms, 12.79 GFLOPS
+CUDA: n=512, k=128, BLOCK_SIZE=32, Time=0.040032 ms, GFLOPS=1676.38
+Max Error: 0.000011
+Max error (0.000011) exceeds tolerance!
+
+Testing with n = 1024, k = 32, BLOCK_SIZE = 32
+[CPU] Time=7.301 ms, 9.19 GFLOPS
+CUDA: n=1024, k=32, BLOCK_SIZE=32, Time=0.040960 ms, GFLOPS=1638.40
+Max Error: 0.000004
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 1024, k = 48, BLOCK_SIZE = 32
+[CPU] Time=10.286 ms, 9.79 GFLOPS
+CUDA: n=1024, k=48, BLOCK_SIZE=32, Time=0.062624 ms, GFLOPS=1607.42
+Max Error: 0.000005
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 1024, k = 64, BLOCK_SIZE = 32
+[CPU] Time=13.360 ms, 10.05 GFLOPS
+CUDA: n=1024, k=64, BLOCK_SIZE=32, Time=0.064992 ms, GFLOPS=2065.14
+Max Error: 0.000008
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 1024, k = 96, BLOCK_SIZE = 32
+[CPU] Time=19.241 ms, 10.46 GFLOPS
+CUDA: n=1024, k=96, BLOCK_SIZE=32, Time=0.078720 ms, GFLOPS=2557.50
+Max Error: 0.000008
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 1024, k = 128, BLOCK_SIZE = 32
+[CPU] Time=24.394 ms, 11.00 GFLOPS
+CUDA: n=1024, k=128, BLOCK_SIZE=32, Time=0.102976 ms, GFLOPS=2606.78
+Max Error: 0.000015
+Max error (0.000015) exceeds tolerance!
+
+Testing with n = 2048, k = 32, BLOCK_SIZE = 32
+[CPU] Time=27.887 ms, 9.63 GFLOPS
+CUDA: n=2048, k=32, BLOCK_SIZE=32, Time=0.109984 ms, GFLOPS=2440.68
+Max Error: 0.000004
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 2048, k = 48, BLOCK_SIZE = 32
+[CPU] Time=41.984 ms, 9.59 GFLOPS
+CUDA: n=2048, k=48, BLOCK_SIZE=32, Time=0.193280 ms, GFLOPS=2083.26
+Max Error: 0.000004
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 2048, k = 64, BLOCK_SIZE = 32
+[CPU] Time=53.487 ms, 10.04 GFLOPS
+CUDA: n=2048, k=64, BLOCK_SIZE=32, Time=0.195680 ms, GFLOPS=2743.62
+Max Error: 0.000006
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 2048, k = 96, BLOCK_SIZE = 32
+[CPU] Time=71.236 ms, 11.30 GFLOPS
+CUDA: n=2048, k=96, BLOCK_SIZE=32, Time=0.271520 ms, GFLOPS=2965.92
+Max Error: 0.000010
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 2048, k = 128, BLOCK_SIZE = 32
+[CPU] Time=95.032 ms, 11.30 GFLOPS
+CUDA: n=2048, k=128, BLOCK_SIZE=32, Time=0.351168 ms, GFLOPS=3057.63
+Max Error: 0.000011
+Max error (0.000011) exceeds tolerance!
+
+Testing with n = 4096, k = 32, BLOCK_SIZE = 32
+[CPU] Time=125.146 ms, 8.58 GFLOPS
+CUDA: n=4096, k=32, BLOCK_SIZE=32, Time=0.389216 ms, GFLOPS=2758.73
+Max Error: 0.000004
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 4096, k = 48, BLOCK_SIZE = 32
+[CPU] Time=168.795 ms, 9.54 GFLOPS
+CUDA: n=4096, k=48, BLOCK_SIZE=32, Time=0.704960 ms, GFLOPS=2284.69
+Max Error: 0.000006
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 4096, k = 64, BLOCK_SIZE = 32
+[CPU] Time=210.306 ms, 10.21 GFLOPS
+CUDA: n=4096, k=64, BLOCK_SIZE=32, Time=0.714848 ms, GFLOPS=3004.11
+Max Error: 0.000008
+Results within acceptable tolerance (0.000010).
+
+Testing with n = 4096, k = 96, BLOCK_SIZE = 32
+[CPU] Time=294.932 ms, 10.92 GFLOPS
+CUDA: n=4096, k=96, BLOCK_SIZE=32, Time=1.012192 ms, GFLOPS=3182.43
+Max Error: 0.000011
+Max error (0.000011) exceeds tolerance!
+
+Testing with n = 4096, k = 128, BLOCK_SIZE = 32
+[CPU] Time=380.705 ms, 11.28 GFLOPS
+CUDA: n=4096, k=128, BLOCK_SIZE=32, Time=1.308576 ms, GFLOPS=3282.17
+Max Error: 0.000015
+Max error (0.000015) exceeds tolerance!
